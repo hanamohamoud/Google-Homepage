@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- This line is important for making websites responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <!-- This is how we link the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- All the main structural elements of the page go inside the body tag -->
+<body>
+    <nav>
+        <!-- Type ctrl and a forward slash to get a comment on windows -->
+        <!-- Type cmd and a forward slash to get a comment on mac -->
+
+
+        <!-- Nav bar section -->
+        <ul id="nav_bar">
+            <!-- Each link in the nav bar is a list element, with a link element inside it -->
+            <!-- I've given each element of the nav bar a class name or id as an identifier so I can style it later -->
+            <li class="nav-links">
+                <a href="gmail.html">Gmail</a>
+            </li>
+            <li class="nav-links">
+                <a href="#">Images</a>
+            </li>
+            <!-- Giving this one an ID because it's different to the other two -->
+            <li id="sign_in">
+                <a href="#">Sign in</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Google logo section -->
+    <div class="google">
+        <a href="#" id="google_logo"><img src="googlelogo.png" alt="Google logo"></a>
+    </div>
+
+    <!-- Form element/search bar -->
+    <div class="form">
+        
+        <form action="">
+            <label for=""></label>
+            <!-- Input type = text for search bars -->
+            <input type="text" id="form-search" placeholder="Search Google or type URL">
+        </form>
+    </div>
+
+    <!-- Google search and I'm feeling lucky buttons -->
+    <div class="buttons">
+        <!-- Input type = submit for buttons -->
+        <input type="submit" value="Google Search" id="google_search">
+        <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- This is the left hand side of the footer -->
+        <ul class="footer-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <!-- This is the right hand side of the footer -->
+        <ul class="footer-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li> 
+        </ul>
+    </footer>
+    
+
+</body>
+</html>
